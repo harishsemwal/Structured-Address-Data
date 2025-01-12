@@ -43,10 +43,11 @@ The Integrated Address Parser is a hybrid **Machine Learning** and **Geocoding**
 
 ### 📸 **Screenshots**  
 **Input Data:**  
-![Input Data](https://github.com/user-attachments/assets/d263b84d-6fc7-4d44-a289-66d4fd46adc9)  
+![image1](https://github.com/user-attachments/assets/d7dd5a66-8474-4984-860e-8443c3aa7f5c)
+
 
 **Output Data:**  
-![Output Data](https://github.com/user-attachments/assets/a2d0c8fe-863c-4e7b-8b99-43e53bbbd369)  
+![image2](https://github.com/user-attachments/assets/6744b40b-b265-4680-913d-53c03d4ec2f3)
 
 ---
 
