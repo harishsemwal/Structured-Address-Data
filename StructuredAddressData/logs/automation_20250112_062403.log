@@ -1,0 +1,37 @@
+2025-01-12 06:24:03,343 - INFO - Starting automated processing pipeline
+2025-01-12 06:24:03,345 - INFO - Starting Streamlit app frontend/page1.py
+2025-01-12 06:24:03,346 - INFO - Starting backend_engine/parser.py
+2025-01-12 06:24:03,347 - INFO - Starting backend_engine/engine.py
+2025-01-12 06:24:05,042 - INFO - Output from backend_engine/parser.py:
+Loading CSV file...
+Error in main: [Errno 2] No such file or directory: 'D:\\UPSC\\frontend\\company_info_history.csv'
+
+2025-01-12 06:24:05,042 - INFO - Successfully completed backend_engine/parser.py
+2025-01-12 06:24:12,563 - INFO - Output from backend_engine/engine.py:
+An error occurred: [Errno 2] No such file or directory: 'D:/UPSC/data_output/structured_addresses.csv'
+
+2025-01-12 06:24:12,565 - WARNING - Warnings/Errors from backend_engine/engine.py:
+ERROR:root:Error in main execution: [Errno 2] No such file or directory: 'D:/UPSC/data_output/structured_addresses.csv'
+Traceback (most recent call last):
+  File "D:\UPSC\backend_engine\engine.py", line 178, in main
+    df = pd.read_csv(input_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Tushar\AppData\Roaming\Python\Python311\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/UPSC/data_output/structured_addresses.csv'
+
+2025-01-12 06:24:12,568 - INFO - Successfully completed backend_engine/engine.py
+2025-01-12 06:24:12,569 - INFO - All scripts completed (except Streamlit app, which continues running)
