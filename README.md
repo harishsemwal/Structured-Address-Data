@@ -1,5 +1,5 @@
 # BNP Paribas - INNOVERSITE: The Universe of Innovation  
-## Integrated Address Parser  
+## Structured Address Data 
 
 **Built at:** *L’INNOVERSTE – The Universe of Innovation*, a 24-hour Hackathon hosted by **BNP Paribas**.  
 
